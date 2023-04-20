@@ -1,0 +1,163 @@
+.p-v{
+    width: 120px ;
+    height: 120px;
+    border-radius: 100%;
+    background-color: red;
+    margin: auto;
+}
+.name h6{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.name button{
+    font-family: "Montserrat", sans-serif;
+    padding: 9px 25px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    color: black;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.name button:hover{
+        box-shadow: inset 180px 0 0 0 black;
+        color: white;  
+}
+
+.background-check-view ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.background-check-view li{
+    margin: auto;
+}
+.background-check-view i{
+
+    font-size: 16px;
+    color: rgb(58, 255, 58);
+}
+.background-check-view span{
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+}
+/* bio */
+.bio-info-user{
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.bio i{
+    font-size: 20px;
+    color: #374EFF;
+    padding-right: 20px;
+}
+.bio span{
+    font-size: 16px;
+}
+.info-bio p{
+    font-size: 14px;
+}
+.header-subject span{
+    color: #374EFF;
+    font-size: 14px;
+    text-align: center;
+}
+.info-subject p{
+    font-size: 14px;
+}
+/* grade-1 to 12 */
+.bio-info-user .badge {
+    letter-spacing: 0.76px;
+    font-weight: 500;
+}
+
+.badge-success.badge-sm {
+    font-size: 10px;
+}
+.badge-break {
+    word-wrap: break-word;
+    white-space: initial;
+}
+.badge-success {
+    letter-spacing: 0.91px;
+    font-weight: 600;
+}
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+.badge-pill {
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+    margin: 0;
+}
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+    .background-check-view ul{
+        padding: 0;
+        display: block;
+        list-style-type: none;
+    
+    }
+    .background-check-view li{
+        margin: auto;
+        padding: 10px;
+    }
+    .background-check-view i{
+        
+        font-size: 16px;
+        color: rgb(58, 255, 58);
+    }
+    .background-check-view span{
+        padding: 10px;
+        color: black;
+        font-size: 14px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.background-check-view ul{
+        padding: 0;
+        display: block;
+        list-style-type: none;
+    
+    }
+    .background-check-view li{
+        margin: auto;
+        padding: 10px;
+    }
+    .background-check-view i{
+        
+        font-size: 16px;
+        color: rgb(58, 255, 58);
+    }
+    .background-check-view span{
+        padding: 10px;
+        color: black;
+        font-size: 14px;
+    }
+}

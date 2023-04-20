@@ -1,0 +1,235 @@
+
+.profile{
+    float: left;
+    margin-top: 30px !important;
+    height: 250px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+.profile-left{
+    float: left;
+    text-align: center;
+    
+}
+.profile-left i{
+    margin-top: 10px;
+    padding: 3px;
+}
+.profile-img{
+    cursor: pointer;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: grey;
+}
+/* right */
+#btn{
+    margin-right: 10px;
+}
+.profile-right{
+    float: left;
+
+}
+.name{
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.btn-req{
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    background-color: transparent;
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btn-req:hover {
+    box-shadow: inset 179px 0 0 0 black;
+    color: white;
+}
+.view-req{
+    display: flex;
+    justify-content: flex-end;
+}  
+
+/* background */
+.name-repone{
+    display: none;
+}
+.bg-check{
+    text-align: center;
+    font-size: 14px;
+    color: chartreuse;
+}
+.bg-check span{
+    font-size: 14px;
+    color: black;
+}
+.profile-right p{
+    font-size: 14px;
+    text-align: justify;
+}
+.profile-right label {
+    color: black;
+    margin-left: 10px;
+}
+.badge{
+    border: 1px solid  silver;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.ads-pf{
+   
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.ads-pf img{
+    width: 100%;
+    border-radius: 10px;
+}
+.ads-pf h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.ads-pf-ww2{
+}
+.ads-pf-ww2 h4{
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 12px;
+}
+.ads-pf-ww2 span{
+    font-weight: bolder;
+}
+.tick-conf{
+    display: flex;
+    justify-content: space-around;
+}
+.tick-conf i{
+    color: chartreuse;
+}
+.tick-conf span{
+    color: black;
+    font-size: 12px;
+}
+.ads-btn{
+   text-align: center;
+}
+.ads-btn button{
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    background-color: transparent;
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.ads-btn button:hover {
+    box-shadow: inset 179px 0 0 0 black;
+    color: white;
+}
+/* button-next */
+.button-next-back ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-next-back li{
+    float: left;
+    padding: 10px;
+}
+.button-next-back button{
+    font-size: 10px;
+    font-weight: 700;
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .tick-conf i{
+        font-size: 10px;
+        color: chartreuse;
+    }
+    .tick-conf span{
+        color: black;
+        font-size: 10px;
+    } 
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .ads-pf{
+        display: none;
+    }
+    .profile{
+        height: auto;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+    .ads-pf{
+        display: none;
+    }
+    .profile{
+        height: auto;
+    }
+  
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.name{
+       display: none;     
+    }
+    .btn-rep{   
+        display: flex;
+        justify-content: space-around;  
+        width: 100%;
+    }
+    .name-repone{
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    .ads-pf{
+        display: none;
+    }
+    .profile{
+        margin-top: 30px !important;
+        height: auto;
+    }
+    
+   
+}
